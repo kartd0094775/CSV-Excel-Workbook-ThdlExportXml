@@ -1,0 +1,166 @@
+body{
+	min-width: 800px;
+}
+
+img {
+    border: 1px solid #585858;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+ol{
+	list-style-type: decimal;
+	padding-left: 2rem;
+}
+
+li{
+	line-height: 1.5;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table, th, td{
+	padding: 4px;
+	border: 1px dashed #FFFFFF;
+	color: #FFFF66; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+.headbar{
+	box-sizing: border-box;
+	color: #FFFFFF;
+	background-color: #045A61;
+	width: 100%;
+	padding: 0.5rem;
+}
+
+.introblock-lv1,
+.introblock-lv2,
+.introblock-lv3{
+	padding: 0.5rem 1rem;
+}
+
+.title{
+	padding: 0;
+}
+
+.introblock-lv1 .title{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.introblock-lv2 .title{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.introblock-lv3 .title{
+	font-size: 1.05rem;
+	font-weight: bold;
+}
+
+.description{
+	padding: 0.5rem 0 0 0;
+	line-height: 1.5;
+}
+
+.example-table,
+.textfile,
+.excelwb{
+	max-width: 900px;
+	margin: 16px 0 0 0;
+	padding: 1rem;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	background-color: #310C0C;
+}
+
+.excelws{
+	position: relative;
+	margin: 16px 0 0 0;
+	padding: 26px 1rem 1rem 1rem;
+	border: 1px solid #999999;
+	border-radius: 4px;
+	background-color: #7C4824;
+}
+
+.example-table .example-content{
+	width: 200px;
+}
+
+.textfile,
+.excelwb{
+	position: relative;
+	max-width: 700px;
+	padding-top: 26px; /* 1rem(16px) + 10px */
+	color: #FFFF66;
+}
+
+.textfile .textfile-header,
+.excelwb .excelwb-header,
+.excelws .excelws-header{
+	position: absolute;
+	top: -10px;
+	left: 16px;
+	padding: 6px 8px;
+	border-radius: 2px;
+	background-color: #195800;
+	line-height: 1;
+}
+
+.excelws .excelws-header{
+	background-color: #418757;
+}
+
+.returnicon{
+	color: #FFFFFF;
+	background-color: #747474;
+	padding: 0 4px;
+	margin: 0 4px;
+}
+
+.ellipsisicon{
+	color: #FF0000;
+	background-color: #747474;
+	padding: 0 4px;
+	margin: 0 4px;
+}
+
+.fileexample{
+	position: relative;
+	border: 2px solid grey;
+	padding: 12px;
+	margin: 20px 0 0 8px;
+	color: white;
+	background-color: #18160A;
+	font-size: 16px;
+}
+
+.fileexample-title{
+	position: absolute;
+	top: -12px;
+	left: 12px;
+	background-color: #0B5A08;
+	color: white;
+	font-size: 16px;
+}
+
+.termlistexample{
+	width: 220px;
+}
+
+.resultexample{
+	width: 250px;
+}
+
+.resultexample.resultexample-file{
+	width: 650px;
+	font-size: 14px;
+}
+
+.lightreturn{
+	color: yellow;
+}
